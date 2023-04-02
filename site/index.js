@@ -1,6 +1,6 @@
 const hour = document.getElementById('hora')
 const minute = document.getElementById('minuto')
-const second = document.getElementById('secundo')
+const second = document.getElementById('segundo')
 const milesim = document.getElementById('milesimo')
 
 const container = setInterval(function tempo(){
