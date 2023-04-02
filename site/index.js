@@ -10,10 +10,10 @@ var min = hoje.getMinutes()
 var sec = hoje.getSeconds()
 var mil = hoje.getMilliseconds()
 
-//if (hr < 10) hr = '0'+ hr
-//if(min <10) min = '0'+ min
-//if (sec <10) sec ='0'+ sec
-//if (mil <10) mil = '0'+ mil
+if (hr < 10) hr = '0'+ hr
+if(min <10) min = '0'+ min
+if (sec <10) sec ='0'+ sec
+if (mil <10) mil = '0'+ mil
 
 hour.innerHTML = hr
 minute.innerHTML = min
