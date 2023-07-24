@@ -21,7 +21,7 @@ body{
 }
 .hora, .minuto, .segundo, .milesimo{
 letter-spacing: 3px;
-width: 140px;
+width: 180px;
 height: 140px;
 display: flex;
 margin-top: 15px;
@@ -37,8 +37,26 @@ box-shadow: 5px 5px 15px rgba(0,0,0, 0.5);
      width: 600px;
     }
     .hora, .minuto, .segundo, .milesimo{
-        width: 120px;
+        width: 170px;
         height: 120px;
+        font-size: medium;
+    }  
+}
+@media screen and (max-width: 450px){
+    .container{
+        width: 100%;
     }
-    
+    .hora, .minuto, .segundo, .milesimo{
+        width: 130px;
+        height: 90px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 390px){
+.container{
+    width: 100%;
+}
+.hora, .minuto, .segundo, .milesimo{
+    width: 110px;
+}
 }
