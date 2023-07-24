@@ -14,8 +14,7 @@ body{
 .container{
     width: 660px;
     background: transparent;
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;;
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 1px 9px 11px rgba(0,0,0, 0.5);
@@ -32,4 +31,14 @@ align-items: center;
 justify-content: center;
 background: rgb(28 28 28);
 box-shadow: 5px 5px 15px rgba(0,0,0, 0.5);
+}
+@media screen and (max-width:680px){
+    .container{
+     width: 600px;
+    }
+    .hora, .minuto, .segundo, .milesimo{
+        width: 120px;
+        height: 120px;
+    }
+    
 }
